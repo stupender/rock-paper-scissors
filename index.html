@@ -4,6 +4,10 @@
     <meta charset="UTF-8"/>  
 </head>
 <body>
+    <h1>
+
+    </h1 id="alert">
+
     <script>
         // Create a variable to hold the score.
         let score = 0;
@@ -14,8 +18,8 @@
             let randomOption = Math.floor(Math.random() * 3);
             return option[randomOption];
         }
-        let computerSelection = computerPlay();
-
+        // Hold the randomly generated selection in a variable
+        // let computerSelection = computerPlay();
 
         // Create a function that declares the winner based on possible outcomes & adjusts the variable score.
         function playRound(playerSelection, computerSelection) {
@@ -65,23 +69,23 @@
         function game() {
             let i = 0;
             for (i = 0; i < 5; i++) {
-                computerPlay();
+                var computerSelection = computerPlay();
                 playRound(prompt("Rock, Paper, or Scissors?").toLowerCase(), computerSelection);
+            }
+            // Declare the winner.
+            if (score > 0) {
+                console.log("Final Result: You won!");
+            }
+            else if (score < 0) {
+                console.log("Final Result: You lost!");
+            }
+            else if (score == 0) {
+                console.log("Final Result: It's a tie!");
             }
         }
 
         // Call the game!
         game();
 
-        // Declare the winner.
-        if (score > 0) {
-            console.log("You win this round!");
-        }
-        else if (score < 0) {
-            console.log("You lose this round!");
-        }
-        else if (score == 0) {
-            console.log("It's a tie!");
-        }
     </script>
 </body>
