@@ -1,0 +1,110 @@
+html {
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
+
+}
+
+    
+button {
+    width: 100%;
+    margin: 2.5% 5% 2.5% 5%;
+    border-radius: 0%;
+    background-color: #ffffff1c;
+    border: 1px solid white;
+    color: white;
+    padding: 2.5% 2.5% 2.5% 2.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+h1 {
+    margin: 10% 5% 2.5% 5%;
+    text-align: center;
+    color: #4e6e7d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+p {
+    margin: 2.5% 5% 2.5% 5%;
+    text-align: center;
+    color: #4e6e7d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.5em;
+    
+
+}
+
+#buttonz {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#totalwins {
+    margin: 2.5% 5% 2.5% 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#user-round {
+    color: #16222A;
+}
+
+#computer-round {
+    color: #3A6073;
+}
+
+#scoreboard {
+    margin: 2.5% 5% 2.5% 5%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#user {
+    order: 1;
+}
+
+.round {
+    margin: 2.5% 5% 2.5% 5%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.lost {
+    margin: 2.5% 5% 2.5% 5%;
+    color: #b96d6d;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.won {
+    margin: 2.5% 5% 2.5% 5%;
+    color: #96b771;
+    font-weight: 700;
+    font-size: 2em;
+
+}
