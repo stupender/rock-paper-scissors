@@ -1,2 +1,2 @@
-# rock-paper-scissors
-Simple implementation of rock paper scissors!
+# Rock Paper Scissors
+5 rounds of rock paper scissors against the computer. All in the console, written in Javascript.
